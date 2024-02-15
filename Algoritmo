@@ -1,0 +1,23 @@
+1. Solicita nombre del asegurado
+2. Solicita edad del asegurado
+    a. 18 - 24  hace recargo 10% sobre base
+    b. 25 - 49  hace recargo 20% sobre base
+    c. 50 en adelante hace recargo de 30%
+3. Pregunta si esta casado si/no
+    a. no. salta al paso 5
+    b. si. pasa al paso 4
+4. Valida edad de conyuge
+    a. 18 - 24  hace recargo 10% adicional
+    b. 25 - 49  hace recargo 20% adicional
+    c. 50 en adelante hace recargo de 30% adicional
+5. Valida si tiene hijos
+    a. no. salta a paso 7
+    b. si. pasa a paso 6
+6. Valida cantidad de hijos y hacer recargo de 20% adicional por hijo, sin importar la edad. 
+7. Pregunta si tiene propiedades
+    a. no. salta a paso 9
+    b. si. pasa a paso 8
+8. Valida cantidad de propiedades y realiza recargo de 35% sobre cotizacion por cada una
+9. Pregunta por salario y realiza recargo de 5% sobre el salario del asegurado  
+10. Entrega cotizacion
+11. Repetir desde paso 1 hasta que el usuario presione salir

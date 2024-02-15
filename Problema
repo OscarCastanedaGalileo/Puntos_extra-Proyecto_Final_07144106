@@ -1,0 +1,14 @@
+Debido a atrasos en la entraga de cotizaciones manuales, las cuales requieren un largo tiempo para ser generadas, se han perdido clientes potenciales.
+Actualmente, debido a los atrasos, se llegan a generar un maximo de 50 cotizaciones diarias, haciendo que se pierdan clientes.
+El valor de la cotizacion va a cambiar cuando se tomen en consideracion los siguientes casos: 
+    1. Dependiendo la edad del asegurado
+        a. 18 - 24 recargo de 10% sobre la base
+        b. 25 - 49 recargo de 20% sobre la base
+        c. >50 recargo de 30% sobre la base
+    2. Dependiendo el asegurado este casado o no y dependiendo de la edad del conyuge 
+        a. 18 - 24 recargo adicional de 10% sobre la base
+        b. 25 - 49 recargo adicional de 20% sobre la base
+        c. >50 recargo adicional de 30% sobre la base
+    3. Dependiendo de la cantidad de hijos 20% de recargo adicional por hijo, independientemente de la edad
+    4. Dependiendo la cantidad de propiedades se hara un recargo de 35% sobre la cotizacion por cada una. 
+    5. Se hara recargo del 5% sobre el salario del asegurado
